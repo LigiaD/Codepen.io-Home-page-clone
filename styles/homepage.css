@@ -1,0 +1,288 @@
+body {
+    background: black;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+   
+}
+body a {
+    text-decoration: none;
+
+}
+
+.general-content-wrapper {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-rows: 0.02fr 0.9fr 0.07fr;
+}
+    
+
+
+/* NAV BAR STYLES */
+.general-content-wrapper > .nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    height: 60px;
+}
+
+.general-content-wrapper > .nav-wrapper img {
+    width: 13%;
+    height: 55%;
+    display: flex;
+    align-self: center;
+    padding-left: 12px;
+    padding-right: 28px;
+   
+    
+    
+}
+
+
+
+.nav-link1-wrapper {
+    margin-top: 9px;
+    padding-right: 15px;
+    
+}
+
+.general-content-wrapper > .nav-wrapper > .nav-link1-wrapper > .nav-link1-a a {
+    color:#F9CB60;
+    padding-bottom: 5px;
+}
+
+.general-content-wrapper > .nav-wrapper > .nav-link1-wrapper > .nav-link1-b a {
+    color: white;
+    font-weight: bold;
+    padding-right: 5px;
+   
+}
+
+.general-content-wrapper > .nav-wrapper > .nav-link1-wrapper > .nav-link1-b {
+    display: flex;
+   
+    
+}
+
+
+.general-content-wrapper > .nav-wrapper > .nav-link1-wrapper > .nav-link1-b > .spark-arrow {
+    color: #B0B0AF;
+    padding-left: 13px;
+}
+
+.general-content-wrapper > .nav-wrapper > .nav-link1-wrapper > .nav-link1-b > .spark-arrow a{
+    color: #B0B0AF;
+}
+
+.general-content-wrapper > .nav-wrapper > .right-links {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    position: absolute;
+    right: 0px;
+}
+
+.general-content-wrapper > .nav-wrapper > .right-links > .scroll-dwn {
+    margin-right: 25px;
+   
+}
+
+.general-content-wrapper > .nav-wrapper > .right-links > .scroll-dwn >.background {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+     background-color: #424242;
+    border-radius: 2px;
+    width: 97px;
+    height: 40px;
+   
+    
+}
+
+.right-links > .scroll-dwn > .background a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 0.85em;
+    
+}
+
+.right-links > .auth {
+    width: 250px;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-content: space-between;
+   
+}
+.right-links > .auth a {
+    background-color: #424242;
+    border-radius: 2px;
+    width: 90px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 0.85em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.general-content-wrapper > .nav-wrapper > .right-links > .scroll-dwn i {
+color: #28CC75;
+padding-left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.general-content-wrapper > .nav-wrapper > .right-links > .auth {
+    padding-right: 25px;
+    
+}
+
+
+
+.general-content-wrapper > .nav-wrapper > .right-links > .auth i {
+    font-size: 1.5em;
+    padding-right: 3px;
+   margin-top: 5px;
+   color: #787878;
+
+}
+
+/* Middle content */
+
+.middle-content-wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+
+    background-image: linear-gradient(160deg,#363937,#373737,black,black);
+    
+}
+
+
+.middle-content-wrapper > .img img {
+    width: 100%;
+    height: 100%;
+    float: right;
+   
+}
+
+.img h3 {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.img h3 span {
+    color: #36CAD5;
+
+}
+
+.middle-content-wrapper > .text {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(197, 196, 196, 0.945);
+    
+}
+.text h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+.text h1 span {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.text > .buttons {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+
+   
+}
+
+.text > .buttons h4 {
+     background: #28CC75;
+    height: 45px;
+    width: 200px;
+    font-size: 1.3em;
+    color: black;
+    border-radius: 2px;
+    margin-right: 20px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+
+}
+
+.text > .buttons h3 {
+    background: #363937;
+   height: 45px;
+   width: 150px;
+   font-size: 1.3em;
+   color: white;
+   border-radius: 2px;
+   margin-right: 20px;
+   margin-top: 25px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+
+/* bottom content */
+
+
+.bottom-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5px;
+    background-color: #363937;
+    border: 2px solid #787878;
+    
+   
+}
+
+.bottom-content-wrapper p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    
+}
+.bottom-content-wrapper p span {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.bottom-content-wrapper > .col1 {
+    border-right: 2px solid #787878;
+}
+.bottom-content-wrapper > .col2 {
+    border-right: 2px solid #787878;
+}
+.bottom-content-wrapper > .col3 {
+    border-right: 2px solid #787878;
+}
